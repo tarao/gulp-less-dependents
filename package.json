@@ -1,0 +1,35 @@
+{
+  "name": "gulp-less-dependents",
+  "version": "1.0.0",
+  "description": "Collect dependents of less files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tarao/gulp-less-dependents.git"
+  },
+  "keywords": [
+    "gulp",
+    "less",
+    "dependency",
+    "gulpplugin"
+  ],
+  "author": "INA Lintaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarao/gulp-less-dependents/issues"
+  },
+  "homepage": "https://github.com/tarao/gulp-less-dependents",
+  "devDependencies": {
+    "gulp-util": "^3.0.0",
+    "should": "^4.3.0",
+    "mocha": "^2.0.0"
+  },
+  "dependencies": {
+    "lodash": "^2.0.0",
+    "through2": "^0.6.3",
+    "less": "<=1.7.5"
+  }
+}
