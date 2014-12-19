@@ -30,6 +30,6 @@
   "dependencies": {
     "lodash": "^2.0.0",
     "through2": "^0.6.3",
-    "less": "<=1.7.5"
+    "less": "^2.1.0"
   }
 }
