@@ -70,7 +70,7 @@ describe('lessDependents()', function() {
         });
         stream.on('end', function() {
             collected.sort().should.eql([
-                'lib/mixin.less',
+                path.join('lib', 'mixin.less'),
                 'with-dependency.less'
             ]);
             done();
